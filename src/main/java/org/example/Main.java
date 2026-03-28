@@ -4,6 +4,8 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        // Get the name from command-line argument
+        String name = args[0];
+        System.out.println("Hello, " + name + "!");
     }
 }
